@@ -38,6 +38,7 @@ h2, h3 {
 	color: #515151;
 	margin: 0;
 	font-weight: normal;
+	letter-spacing: 1px;
 }
 
 h1 {
@@ -53,6 +54,7 @@ h1, footer {
 
 h2 {
 	margin-bottom: 5px;
+	letter-spacing: 2px;
 }
 
 section.content {
