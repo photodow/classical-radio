@@ -81,6 +81,11 @@ section.content section {
 	margin-bottom: 20px;
 }
 
+section.content section p {
+	text-align: justify;
+	letter-spacing: .5px;
+}
+
 .box {
 	background: #fff;
 	overflow: hidden;
