@@ -1,4 +1,175 @@
-body {
-	color: #fff;
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
+
+html, body {
+	padding: 0;
+	margin: 0;
+	color: #777;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+p {
+	margin-top: 0;
+}
+
+section, section div, header, header div, aside, aside div {
+	overflow: hidden;
+}
+
+aside, section.content {
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 25%;
+}
+
+aside.left, section.content {
+	float: left;
+}
+
+aside.right {
+	float: right;
+}
+
+article.video {
+	display: inline;
+	overflow: hidden;
+}
+
+h2, h3 {
+	font-family: 'Marcellus SC', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: #515151;
+	margin: 0;
+	font-weight: normal;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 4px double #ccc;
+	padding: 10px 0;
+}
+
+h1, footer {
+	border-top: 4px double #ccc;
+	margin: 20px 0;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+section.content {
+	width: 50%;
+}
+
+section.content .container {
+	padding: 0 20px 0;
+}
+
+section.content video {
+	width: 100%; /* 680 */
+	height: 383px;
 	background: #000;
+	margin-bottom: 20px;
+}
+
+section.content aside {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+section.content section {
+	margin-bottom: 20px;
+}
+
+.box {
+	background: #fff;
+	overflow: hidden;
+	width: 12.5%;
+	float: left;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+}
+
+aside .box {
+	width: 50%;
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+
+.box .container {
+	padding: 10px;
+	padding-top: 23px;
+}
+
+.box.description {
+	background: #fff;
+}
+
+.box.video {
+	background: #000;
+	position: relative;
+}
+
+.box.video a img {
+	width: 100%;
+}
+
+.box.video a .play-hover {
+	display: none;
+	position: absolute;
+}
+
+.box.video a:hover .play-hover {
+	display: block;
+}
+
+.box.video a .duration {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 3px;
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px;
+	font-size: .9em;
+	opacity: 0.75;
+	height: 16px;
+	line-height: 17px;
+}
+
+.photo-gallery {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.photo-gallery li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border: 1px solid #ccc;
+	width: 24%;
+	margin-right: 1%;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+}
+
+.photo-gallery li img {
+	width: 100%;
+	display: block;
+}
+
+footer {
+	margin-top: 20px;
+	clear: both;
 }
