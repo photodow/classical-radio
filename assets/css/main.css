@@ -123,6 +123,8 @@ aside .box {
 .box.video a .play-hover {
 	display: none;
 	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 .box.video a:hover .play-hover {
