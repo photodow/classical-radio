@@ -16,10 +16,6 @@ section, section div, header, header div, aside, aside div {
 	overflow: hidden;
 }
 
-aside, section.content {
-	margin-bottom: 20px;
-}
-
 aside {
 	width: 25%;
 }
@@ -77,7 +73,6 @@ section.content video {
 section.content aside {
 	float: right;
 	margin-left: 20px;
-	margin-bottom: 20px;
 }
 
 section.content section {
@@ -90,6 +85,7 @@ section.content section {
 	width: 12.5%;
 	float: left;
 	border: 1px solid #fff;
+	position: relative;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box; /* Firefox */
 }
@@ -108,6 +104,32 @@ aside .box {
 
 .box.description {
 	background: #fff;
+}
+
+.box.description a, .box.description a:active {
+	background: #bfbfbf url('../image/icon-moreinfo.png') no-repeat center right;
+	padding: 5px 10px;
+	padding-right: 30px;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #515151;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+.box.description a:hover {
+	background: #ccc url('../image/icon-moreinfo.png') no-repeat center right;
+	padding: 5px 10px;
+	padding-right: 30px;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #515151;
+	display: inline-block;
+	position: absolute;
+	left:10px;
+	bottom: 10px;
 }
 
 .box.video {
